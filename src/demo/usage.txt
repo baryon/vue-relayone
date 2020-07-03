@@ -1,0 +1,27 @@
+<template>
+  <div>
+    <RelayOne
+      to="1Pwmd4RCoTbYP6tLWVoDcys1GW5chsve8C"
+      amount="0.5"
+      currency="USD"
+      label="Send some loot"
+      @payment="handlePayment"
+    />
+  </div>
+</template>
+
+<script>
+import RelayOne from 'vue-relayone'
+
+export default {
+  components: {
+    RelayOne
+  },
+
+  methods: {
+    handlePayment(payment) {
+      // handle payment
+    }
+  }
+}
+</script>

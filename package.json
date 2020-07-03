@@ -1,0 +1,44 @@
+{
+  "name": "vue-relayone",
+  "version": "0.1.0",
+  "description": "An unofficial Vue.js component for the RelayOne.",
+  "repository": "github:baryon/vue-relayone",
+  "main": "dist/vue-relayone.js",
+  "scripts": {
+    "build": "npm run build:dist && npm run build:demo",
+    "build:demo": "NODE_ENV=production webpack --config ./config/dev.js --mode production",
+    "build:dist": "NODE_ENV=production webpack --config ./config/dist.js --mode production",
+    "clean": "rimraf ./dist/* ./demo/*",
+    "dev": "NODE_ENV=development webpack-dev-server --config ./config/dev.js --inline --hot --mode development",
+    "release:demo": "git subtree push --prefix demo origin gh-pages",
+    "test": "karma start config/karma.config.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "avoriaz": "^6.3.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "deep-assign": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jasmine": "^3.5.0",
+    "karma": "^4.4.1",
+    "karma-jasmine": "^3.3.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^4.0.2",
+    "raw-loader": "^4.0.1",
+    "rimraf": "^3.0.0",
+    "tachyons": "^4.12.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "peerDependencies": {
+    "vue": "2.x"
+  }
+}
