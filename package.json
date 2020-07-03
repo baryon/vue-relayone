@@ -4,6 +4,7 @@
   "description": "An unofficial Vue.js component for the RelayOne.",
   "repository": "github:baryon/vue-relayone",
   "main": "dist/vue-relayone.js",
+  "files": ["dist/**"],
   "scripts": {
     "build": "npm run build:dist && npm run build:demo",
     "build:demo": "NODE_ENV=production webpack --config ./config/dev.js --mode production",

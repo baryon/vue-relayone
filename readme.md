@@ -1,17 +1,17 @@
-# vue-relayone-button
+# vue-relayone
 
 > An unofficial Vue.js component for the RelayOne Button.
 
 Inspire from libitx's vue-money-button.
 
-A Vue.js component that lets you integrate [RelayOne Button](https://one.relayx.io/)'s payment system into your app or web page.
+A Vue.js component that lets you integrate [RelayOne](https://one.relayx.io/)'s payment system into your app or web page.
 
 ## Installation
 
 ```sh
-npm install vue-relayone-button --save-dev
+npm install vue-relayone --save-dev
 # or
-yarn add vue-relayone-button
+yarn add vue-relayone
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ yarn add vue-relayone-button
 ```Vue
 <template>
   <div>
-    <MoneyButton
+    <RelayOne
       to="YOUR BITCOIN ADDRESS"
       amount="0.5"
       currency="USD"
@@ -30,11 +30,11 @@ yarn add vue-relayone-button
 </template>
 
 <script>
-import MoneyButton from 'vue-money-button'
+import RelayOne from 'vue-relayone'
 
 export default {
   components: {
-    MoneyButton
+    RelayOne
   },
 
   methods: {
@@ -91,6 +91,6 @@ The component emits the following events:
 
 ## License
 
-vue-relayone-button is open source and released under the [MIT License](license.md).
+vue-relayone is open source and released under the [MIT License](license.md).
 
-Copyright (c) 2020 ChainBow, inspire from libitx's money button.
+Copyright (c) 2020 ChainBow, inspire from libitx's vue money button.
