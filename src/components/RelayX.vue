@@ -8,7 +8,7 @@
 <script>
 import config from '../config'
 import scriptLoader from '../script-loader'
-import Loader from './loader'
+import Loader from './Loader.vue'
 
 export default {
   props: {
