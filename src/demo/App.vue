@@ -73,7 +73,7 @@
 </template>
 
 <script>
-import RelayX from '../components/RelayX.vue'
+import { RelayX } from '../index'
 import usage from './usage.txt'
 
 export default {

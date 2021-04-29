@@ -1,6 +1,6 @@
 <template>
   <div>
-    <RelayOne
+    <RelayX
       to="1Pwmd4RCoTbYP6tLWVoDcys1GW5chsve8C"
       amount="0.5"
       currency="USD"
@@ -11,11 +11,11 @@
 </template>
 
 <script>
-import RelayOne from 'vue-relayone'
+import { RelayX } from 'vue-relayone'
 
 export default {
   components: {
-    RelayOne
+    RelayX
   },
 
   methods: {

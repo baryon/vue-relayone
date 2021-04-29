@@ -1,6 +1,5 @@
-import { mount } from 'avoriaz'
-import RelayOne from 'components/RelayOne.vue'
+import RelayOne from 'components/RelayX.vue'
 
-describe('RelayOne', () => {
+describe('RelayX', () => {
   
 })
