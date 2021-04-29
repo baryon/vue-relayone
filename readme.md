@@ -1,10 +1,10 @@
 # vue-relayone
 
-> An unofficial Vue.js component for the RelayOne Button.
+> An unofficial Vue.js component for the RelayX Button.
 
 Inspire from libitx's vue-money-button.
 
-A Vue.js component that lets you integrate [RelayOne](https://one.relayx.io/)'s payment system into your app or web page.
+A Vue.js component that lets you integrate [RelayX](https://one.relayx.io/)'s payment system into your app or web page.
 
 ## Installation
 
@@ -19,7 +19,7 @@ yarn add vue-relayone
 ```Vue
 <template>
   <div>
-    <RelayOne
+    <RelayX
       to="YOUR BITCOIN ADDRESS"
       amount="0.5"
       currency="USD"
@@ -30,11 +30,11 @@ yarn add vue-relayone
 </template>
 
 <script>
-import RelayOne from 'vue-relayone'
+import RelayX from 'vue-relayone'
 
 export default {
   components: {
-    RelayOne
+    RelayX
   },
 
   methods: {
