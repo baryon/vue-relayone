@@ -6,9 +6,9 @@
 </template>
 
 <script>
-import config from 'config'
-import scriptLoader from 'script-loader'
-import Loader from 'components/loader'
+import config from '../config'
+import scriptLoader from '../script-loader'
+import Loader from './loader'
 
 export default {
   props: {

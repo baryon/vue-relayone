@@ -1,3 +1,3 @@
-import RelayOne from './components/RelayOne.vue'
+import RelayX from './components/RelayX.vue'
 
-export default RelayOne
+export default RelayX

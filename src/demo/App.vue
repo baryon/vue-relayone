@@ -30,7 +30,7 @@
         </div>
       </form>
 
-      <RelayOne
+      <RelayX
         to="1Pwmd4RCoTbYP6tLWVoDcys1GW5chsve8C"
         :amount="amount"
         :label="label"
@@ -73,8 +73,8 @@
 </template>
 
 <script>
-import RelayOne from 'components/RelayOne.vue'
-import usage from 'demo/usage.txt'
+import RelayX from '../components/RelayX.vue'
+import usage from './usage.txt'
 
 export default {
   data() {
@@ -105,7 +105,7 @@ export default {
   },
 
   components: {
-    RelayOne
+    RelayX
   }
 }
 </script>
